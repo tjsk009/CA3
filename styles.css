@@ -1,24 +1,58 @@
 
+
      body {
         background-color: rgba(94, 92, 93, 0.893);
         color: rgb(131,148,150);
+        max-width:800px;
       }
 
       h1{
         background-color: rgb(7, 54, 66);
-        color: rgb(131,148,150);
-      }
+        color: yellow;
+        text-align: center;
+        text-size-adjust: 150px;
+        padding: 50px;
 
+      }
+      aside h2{
+        color: green;
+        padding: 50px;
+      }
       footer{
         background-color: rgb(7, 54, 66);
         color: rgb(131,148,150);
       }
 
-      a{
-        color:rgb(211, 54,130);
+      a:link {
+        color:magenta;
       }
-
       /* mouse over link */
     a:hover {
         color:orange;
+    }
+
+    .border1 {
+      border-width:3px;
+      border-style:solid;
+      border-color:cyan;
+     }
+
+     ul.no-bullets {
+      list-style-type: none; /* Remove bullets */
+      padding: 0; /* Remove padding */
+      margin: 0; /* Remove margins */
+    }
+
+    nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    aside a:link{
+      color: red;
+    }
+
+    aside a:hover {
+      color:blue;
     }
